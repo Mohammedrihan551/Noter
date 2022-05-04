@@ -1,0 +1,107 @@
+ /*Font style for noter*/
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*Full body css*/
+ body{
+    background: #fefbf1;
+    font-family: "Poppins";
+}
+
+/*Navigation css starts*/
+ nav{
+     background: #A082D9;
+     padding: 0px;
+     margin:-8px;
+ }
+
+ ul{
+     list-style-type: none;
+     margin: 0px;
+     padding: 0px;
+ }
+ li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+ }
+ #heading{
+   font-family: "Poppins";
+    margin: 2px;
+    padding: 5px; 
+    font-size: 30px;
+    color:#e5cde7;
+ }
+ #searchBar{
+   font-family: "Poppins";
+     margin: 2px;
+     padding: 5px;
+     border-radius: 10px;
+     border: 2px solid #e5cde7;
+     width:150px;
+    }
+ #searchButton{
+   font-family: "Poppins";
+    margin: 2px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #e5cde7;
+    color: #d87de0;
+ }
+
+/*Textarea css*/
+  #mainContainer{
+ margin: auto;
+ }
+   #textareaHeading{
+      color:#04004d;
+   }
+   .createNotesContainer{
+      /*display: inline-block;*/
+      color:#726dc4;
+      box-shadow: 0 2px 4px 0;
+      padding: 10px;
+      border-radius: 8px;
+   }
+   #textedArea{
+       border:2px solid #726dc4;
+       border-radius: 6px;
+       width: 98%;
+   }
+   #addNotesButton{
+    border:2px solid #726dc4;
+    border-radius: 6px;
+    height: 30px;
+   }
+
+/*Created Notes Css*/
+   .notesCard{
+     color:#726dc4;
+     box-shadow: 0 2px 4px 0;
+     margin: auto;
+     padding: 8px;
+     border-radius: 8px;
+   }
+   .deleteNotesButton{
+    border:2px solid #726dc4;
+    border-radius: 6px;
+    height: 30px;
+   }
+   #notes{
+      color: black;
+      font-family: "Cairo";
+   }
+
+   @media only screen and (max-width:300px){
+      nav{
+         background:#A082D9;
+         margin-right:-80px;
+      }
+      #textedArea{
+        border:2px solid #726dc4;
+        border-radius: 6px;
+        width: 96%;
+      }
+   }

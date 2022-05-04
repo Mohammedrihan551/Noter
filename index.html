@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noter|Notes Making Website</title>
+    <link rel="stylesheet" href="Noter.css"/>
+</head>
+<body>
+
+    <!--Navigation menu bar starts-->
+    <nav id="navigation">
+      <ul id="list">
+          <li class="menuList">
+            <h1 id="heading">noter</h1>
+          </li>
+          <li class="menuList">
+           <form class="form">
+             <input id="searchBar" type="search" placeholder="Search"/>
+             <button id="searchButton" type="submit">Search</button>
+           </form>
+          </li>
+      </ul>  
+    </nav>
+    
+    <!--Textarea for notes writing-->
+    <div id="mainContainer">
+        <h2 id="textareaHeading">Create Quick Notes With Noter</h2>
+         <div class="createNotesContainer">
+             <h4>Create Notes</h4>
+              <div id="textareaContainer">
+                 <textarea id="textedArea" rows="8" cols="35"></textarea>
+             </div>
+             <button id="addNotesButton">Add Notes</button>
+         </div>
+    </div>
+
+    <!--Created notes container-->
+         <h2 id="notesContainerHeading">Created Notes</h2>
+          <div id="notesContainer"></div> 
+
+  <script src="Noter.js"></script>
+</body>
+</html>
